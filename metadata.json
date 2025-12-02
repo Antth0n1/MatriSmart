@@ -1,0 +1,5 @@
+{
+  "name": "MatriSmart",
+  "description": "Sistema inteligente de controle de vagas e matrículas com turmas de A a D, turnos manhã e tarde, e análise de capacidade via IA.",
+  "requestFramePermissions": []
+}
