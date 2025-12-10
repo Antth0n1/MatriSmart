@@ -585,10 +585,10 @@ const App: React.FC = () => {
       <div className="p-4 mt-auto border-t dark:border-gray-700 space-y-3">
         <button
           onClick={() => setIsDarkMode(!isDarkMode)}
-          className="w-full flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+          className="w-full flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
         >
-          {isDarkMode ? <Sun size={18} /> : <Moon size={18} />}
-          {isDarkMode ? 'Modo Claro' : 'Modo Escuro'}
+          {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+          {isDarkMode ? 'Ativar Modo Claro' : 'Ativar Modo Escuro'}
         </button>
 
         <button
